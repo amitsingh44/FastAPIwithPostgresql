@@ -1,5 +1,3 @@
-from email.policy import default
-from tkinter import CASCADE
 from sqlalchemy import TIMESTAMP, Boolean, Column, Integer, String, text, ForeignKey
 from sqlalchemy.orm import relationship
 from .database import Base
